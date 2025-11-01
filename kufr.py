@@ -1,5 +1,5 @@
 def opens(code,digits):
-    return code[0:1] == digits[0:1] or code[1:2] == digits[1:2] or code[0]+code[2] == digits[0]+digits[2]
+    return code[0:1] == digits[0:1] or code[1:2] == digits[1:2] or int(code[0])+int(code[2]) == int(digits[0])+int(digits[2])
 
 def suitcase():
 
